@@ -1,0 +1,50 @@
+.productTable{
+    display: flex;
+    justify-content: center;
+}
+table{
+
+    width: 700px;
+    background-color: aquamarine;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.pName,.pPrice,.pType,.pImg{
+    width: 250px;
+    height: 25px;
+}
+div{
+    margin: auto;
+    padding: 5px;
+}
+hr{
+    background-color: aquamarine;
+    height: 5px;
+
+}
+.headline,.headline2{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.inputDiv{
+    border: 5px;
+    width: 400px;
+    height: 300px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.ADD{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: aquamarine;
+    height: 25px;
+    width: 150px;
+
+}
+.buttonDiv{
+    display: flex;
+    justify-content: center;
+}
+img{
+    width: 100px;
+    height: 100px;
+}

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style\style.css">
+</head>
+
+<body>
+    <div class="inputDiv">
+        <div class="headline">
+            <h1>Add Product</h1>
+        </div>
+        <form>
+            <div><label>Product Name: </label>
+                <input type="text" placeholder="product name" class="pName" id="pName" required>
+            </div>
+            <div><label>Product Price: </label>
+                <input type="number" placeholder="example:85.50" class="pPrice" id="pPrice" required>
+            </div>
+            <div><label>Product Type: </label>
+                <select name="type" class="pType" id="pType" required>
+                    <option value="">Please choose type</option>
+                    <option value="Drinks">Drinks</option>
+                    <option value="Meat">Meat</option>
+                    <option value="Snacks">Snacks</option>
+                    <option value="Dairy">Dairy</option>
+                    <option value="Basic">Basic</option>
+                </select>
+            </div>
+            <div>
+                <label>Product image: </label>
+                <input type="text" placeholder="example:https://www.tnuva.co.il/uploads/f_606ee43fa87cf_1617880127.jpg"
+                    class="pImg" id="pImg" required>
+            </div>
+            <div class="buttonDiv">
+                <div>
+                    <input type="button" value="Add Product" class="ADD" id="ADD" onclick="AddProduct()">
+                </div>
+            </div>
+
+        </form>
+    </div>
+    <div>
+        <hr>
+    </div>
+    <div class="headline2"><h1>My Cart</h1></div>
+    <div class="productTable">
+
+        <table border="1" id="prodTable">
+            <tr>
+                <td>Product Name</td>
+                <td>Product Price</td>
+                <td>Product Type</td>
+                <td>Product Image</td>
+            </tr>
+        </table>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
